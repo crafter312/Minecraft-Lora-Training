@@ -41,9 +41,9 @@ def scale_down_and_remove_bg(source_path, factor, color, output_dir):
 
 if __name__ == "__main__":
     SCALING_FACTOR = 2
-    SOURCE_DIR = r"C:/Users/ilysa/Documents/GitHub/Minecraft-Lora-Training/image_2/7_minecraft/"
+    SOURCE_DIR = r"../data_set/block_images/"
     BG_COLOR = (0, 255, 0, 255) # (R, G, B, A) for color that replaces transparent pixels
-    OUTPUT_DIR = r"C:/Users/ilysa/Documents/GitHub/Minecraft-Lora-Training/image_2/7_minecraft/"
+    OUTPUT_DIR = r"../image/5_minecraft_block/"
 
     if not path.isdir(OUTPUT_DIR):
         mkdir(OUTPUT_DIR);
