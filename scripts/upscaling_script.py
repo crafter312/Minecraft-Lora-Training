@@ -40,7 +40,7 @@ def scale_down_and_remove_bg(source_path, factor, color, output_dir):
     
 
 if __name__ == "__main__":
-    SCALING_FACTOR = 2
+    SCALING_FACTOR = 16
     SOURCE_DIR = r"../data_set/block_images/"
     BG_COLOR = (0, 255, 0, 255) # (R, G, B, A) for color that replaces transparent pixels
     OUTPUT_DIR = r"../image/5_minecraft_block/"
